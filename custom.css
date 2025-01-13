@@ -1,0 +1,87 @@
+/* removes nitro button from private message list*/
+[data-list-item-id$="nitro"] {
+	display: none;
+}
+
+/* removes shop button from private message list*/
+[data-list-item-id$="shop"] {
+	display: none;
+}
+
+/* removes "add super reaction" menu item from light click*/
+.colorDefault__0b482.colorPremiumGradient__45b85.labelContainer_bc2861.item__183e8 {
+	display: none;
+}
+
+/* removes nitro promo from message box*/
+.buttons_ce5b56 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9 {
+	display: none;
+}
+
+/* removes sitckers button from message bar*/
+div.buttonContainer__8b164.expression-picker-chat-input-button:nth-of-type(2) {
+	display: none;
+}
+
+/* removes "add super reaction" button when hovering over a message*/
+div.button_d553e5[aria-label="Add Super Reaction"] {
+	display: none;
+}
+
+/* removes "speak message" button from right click menu*/
+#message-tts {
+	display: none;
+}
+
+/* removes "add super reaction" button from underneath a post that already has a reaction*/
+div.reactions_b8dc93 > :nth-of-type(4){
+	display: none;
+}
+
+/* removes "swipe status" popup */
+div.popout_d201be {
+	display: none;
+}
+
+/* removes nitro ad in chat when someone streams */
+[class*="nitroMessage"] {
+	display: none;
+}
+
+/* Gift button */
+div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=dialog] {
+  display: none;
+}
+
+/* removes activities button from streams */
+[class="buttonContainer_b6e2f9"]{
+	display: none;
+}
+
+/* removes obtrusive reaction buttons */
+[aria-label*="Click to react with"]{
+	display: none;
+}
+
+/* removes leftover elements from reaction buttons */
+[class="separator_e986d9"]{
+	display: none;
+}
+
+/* removes "apps" container from bottom right bar */
+[class="channelAppLauncher_df39bd"]{
+	display: none;
+}
+
+/* remove sticker tab*/
+[id="sticker-picker-tab"]{
+	display: none;
+}
+[aria-label="Open sticker picker"]{
+	display: none;
+}
+
+/* remove activity button from voice chat bar */
+[aria-label="Start An Activity"]{
+	display: none;
+}
