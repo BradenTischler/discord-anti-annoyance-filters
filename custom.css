@@ -54,7 +54,7 @@ div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=d
 }
 
 /* removes activities button from streams */
-[class="buttonContainer_b6e2f9"]{
+[class="buttonContainer__1405b"]{
 	display: none;
 }
 
@@ -69,7 +69,7 @@ div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=d
 }
 
 /* removes "apps" container from bottom right bar */
-[class="channelAppLauncher_df39bd"]{
+[class="channelAppLauncher_e6e74f"]{
 	display: none;
 }
 
@@ -83,5 +83,10 @@ div[class*=channelTextArea_]>div>div>div[class*=buttons_]>button[aria-haspopup=d
 
 /* remove activity button from voice chat bar */
 [aria-label="Start An Activity"]{
+	display: none;
+}
+
+/* remove gift button from chat bar */
+[aria-label="Send a gift"]{
 	display: none;
 }
